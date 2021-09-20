@@ -8,4 +8,9 @@ Application of OpenWeatherMap API which can be accessed here (https://openweathe
 
 A first principle animation (haha!! Great joke and applauds) has also been added to the result of the display statement using Vanilla JS itself.
 
+Here have a look !!
+
 ![image](https://user-images.githubusercontent.com/88903134/134026965-8bfa0ac1-f21a-4167-b502-468a1d621529.png)
+
+Work in progress...
+Not much of a great styling in my views(I apologize)
