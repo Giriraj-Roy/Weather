@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 50vh;
+    position:relative;
+    align-items: center;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: tomato;*/
+    background-image: url('2964914.jpg');
+    background-size: 100%;
+    /*opacity: 50%;*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+}
+.Instructions{
+    position: relative;
+    margin-top: 200px;
+    height: 100vh;
+    font-size: 28px;
+    font-style: oblique;
+    font-family: monospace;
+    color: lemonchiffon;    
+}
+.instructions2{
+    position: relative;
+    margin-top: 50px;
+    height: 10vh;
+    font-size: 16px;
+    font-style: normal;
+    font-family: cursive;
+    color: rgb(203, 228, 243);
+    
+}
+.location{
+    /*width: 570px;*/
+    width: 400px;
+    background: rgb(189, 106, 245);
+    border: transparent;
+    border-radius: 2mm;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+.dataInput{
+    height: 500px;
+    position:relative;
+}
+.place{
+    height: 40px;
+    width: 500px;
+    font-size: 20px;       
+    border-radius: 2mm;
+    background: lightblue;
+    border: black;
+    margin-right: 0px;
+    /*mask-border-source:inherit;*/
+    cursor:text;
+}
+.Show{    
+    height: 40px;
+    width: 150px;
+    margin-left: 0px;
+    background: darkturquoise;
+    font-weight: bold;
+    border-radius: 4mm;
+    border: black;
+    border-width: 2px;
+
+}
+.Show:hover{
+    background: rgb(6, 6, 63);
+    color: chartreuse;    
+}
+.City{
+    margin-top: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(87, 219, 142);
+}
+
+.temperatureDetails{
+    padding-left: 2px;
+    padding-top: 10px;
+}
+
+span{
+    opacity: 0;
+    transition: all 2s ease;
+    transform: translateY(50px);
+}
+span.fade{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.feels, .temperature, .pressure{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+}
